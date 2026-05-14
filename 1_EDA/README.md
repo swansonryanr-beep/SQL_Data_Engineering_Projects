@@ -1,6 +1,6 @@
-# Exploratory Data Anlysis w/ SQL: Job Market Analysis for Data Engineers and Data Analysts (Skills to Learn Based on Demand & Compensation)
+# Exploratory Data Analysis w/ SQL: Job Market Analysis for Data Engineers and Data Analysts (Skills to Learn Based on Demand & Compensation)
  
-![Project 1 Overview](../1_EDA\Images\1_1_Project1_EDA.png) 
+![Project 1 Overview](../1_EDA/Images/1_1_Project1_EDA.png) 
 
 This project was built following along with tutorials and guidance from Luke Barousse **Youtube Link:** (https://youtube.com/@lukebarousse?si=Wy_og1il961aWH2z) as part of learning data engineering fundamentals 
 
