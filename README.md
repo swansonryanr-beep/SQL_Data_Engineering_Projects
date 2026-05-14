@@ -1,4 +1,4 @@
-#SQL Data Engineering Projects
+# SQL Data Engineering Projects
 
 The following projects are a collection of my studies, showcasing my SQL skills so far and to practice my skills w/ data engineering tools. 
 
