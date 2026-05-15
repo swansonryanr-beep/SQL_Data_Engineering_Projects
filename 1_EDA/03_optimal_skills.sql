@@ -102,7 +102,7 @@ LIMIT 25;
  
 /* 
 Key Findings:
--The results after the queries show the top skills for boht roles, taking into account both demand in the industry and compensation offered. 
+-The results after the queries show the top skills for both roles, taking into account both demand in the industry and compensation offered. 
 -Additionally, the findings are sorted in descending order of optimization. Looking at the data provided we see the following: 
 ---Data Engineers:
 -----Top 5 skills: Terraform, Python, AWS, SQL, and AirFlow.
