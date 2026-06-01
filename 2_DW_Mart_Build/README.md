@@ -37,7 +37,7 @@ An end-to-end data engineering pipeline that transforms raw CSV files from Googl
 
 
 ## Pipeline Architecture
-![Data Pipeline Architecture](../2_DW_Mart_Build\images\Data_route.png)
+![Data Pipeline Architecture](./images/01_Data_Architecture.png) 
 The pipeline transforms job posting CSVs from Google Cloud Storage into a normalized star schema data warehouse, then builds specialized analytical data marts. BI tools (Excel, Power BI, Tableau, Python) consume from both the warehouse and marts
 
 **Data Warehouse:** The data warehouse implements a star schema with `company_dim,` `skills_dim`, `job_postings_fact`, and `skills_job_dim` tables. 
