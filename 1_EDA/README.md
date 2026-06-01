@@ -1,6 +1,6 @@
 # Exploratory Data Analysis w/ SQL: Job Market Analysis for Data Engineers and Data Analysts (Skills to Learn Based on Demand & Compensation)
  
-![Project 1 Overview](../1_EDA/Images/1_1_Project1_EDA.png) 
+![Project 1 Overview](../1_EDA/Images/Project%201%20revamp%20pic.png) 
 
 This project was built following along with tutorials and guidance from Luke Barousse **Youtube Link:** (https://youtube.com/@lukebarousse?si=Wy_og1il961aWH2z) as part of learning data engineering fundamentals 
 
@@ -28,10 +28,12 @@ The goal of this project was to gain practical experience with:
 3. [Optimal Skills Query](/1_EDA/03_optimal_skills.sql) - Combined demand/salary optimization query
 
 ## Problem & Context
-This project explores common questions relevant to the data job market:
-- **Most In-Demand Skills:** Which skills are most requested for Data Engineers and Data Analysts?
-- **Highest Paying Skills:** Which skills command the highest salaries overall for both roles?
-- **Best trade-off:** Which skills provide the strongest balance between compensation and market demand?
+
+Professionals entering the data industry often face uncertainty about which technical skills provide the greatest career value. While some skills are highly demanded by employers, others command higher salaries but appear less frequently in job postings.
+
+This project analyzes real-world job posting data to identify the skills that provide the strongest balance between market demand and compensation for Data Engineers and Data Analysts.
+
+The goal was to use SQL-based analysis to transform job market data into actionable career insights.
 
 
 ## Tech Stack
@@ -60,6 +62,15 @@ This project explores common questions relevant to the data job market:
     - Data Engineers: Terraform, Python, AWS, SQL, Airflow
     - Data Analysts: SQL, Tableau, Python, Excel, R
 
+## Key Outcomes
+
+* Identified the most in-demand skills for Data Engineers and Data Analysts
+* Quantified salary differences across technical skill sets
+* Developed a scoring methodology combining demand and compensation
+* Demonstrated SQL-based workforce and labor market analysis
+* Produced actionable recommendations for skill development and career planning
+
+
 ## SQL Skills Demonstrated
 **Query Design**
 - **Complex Joins:** Multiple table `INNER JOIN` operations across `job_postings-fact`,`skills_job_dim`, and `skills_dim`  
@@ -71,10 +82,20 @@ This project explores common questions relevant to the data job market:
 **Data Analysis Techniques**
 - **Grouping:** `GROUP BY` for categorical analysis
 - **Conditional Logic:** `CASE WHEN` statements for metrics
-- **Mathematical Functions:** `LN()` to normalize demand metrics
+- **Mathematical Functions:** Used LN() to normalize demand metrics and reduce the influence of outliers when calculating skill rankings.
 - **Calculated Metrics:** Derived optimal score combining demand and median salary
 - **HAVING Clause:** Filtering aggregated results (specifically skills w/ >= postings)
 - **NULL Handling:** Proper filtering of incomplete records (`salary_year-avg IS NOT NULL`)
+
+## Lessons Learned
+
+* Demand and salary do not always correlate directly
+* High-paying skills may have lower overall market demand
+* SQL can be used to answer workforce and labor market questions
+* Combining multiple metrics often provides stronger insights than evaluating a single metric
+* Data-driven decision making can improve career planning and skill prioritization
+* Multi-table joins are essential for building complete analytical datasets
+
 
 ## Original project/tutorial inspiration from:
 - **Luke Barousse YouTube Channel:** (https://youtube.com/@lukebarousse?si=Wy_og1il961aWH2z)
